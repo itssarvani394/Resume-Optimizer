@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '
 
 def summarize_with_langchain_and_openai(transcript, language_code='english', model_name='gpt-3.5-turbo'):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=0)
